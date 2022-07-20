@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AD9AB5272887208400CFB078 /* ButtonPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB5262887208400CFB078 /* ButtonPageViewController.swift */; };
+		AD9AB5292887913B00CFB078 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB5282887913B00CFB078 /* MoviesViewController.swift */; };
+		AD9AB52B2887963300CFB078 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52A2887963200CFB078 /* BooksViewController.swift */; };
+		AD9AB52D2887964600CFB078 /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52C2887964600CFB078 /* FoodsViewController.swift */; };
+		AD9AB52F2887965500CFB078 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52E2887965500CFB078 /* SongsViewController.swift */; };
+		AD9AB53128879CC800CFB078 /* Movies2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */; };
 		BDB67D8028870D8500C86534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D7F28870D8500C86534 /* AppDelegate.swift */; };
 		BDB67D8228870D8500C86534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D8128870D8500C86534 /* SceneDelegate.swift */; };
 		BDB67D8428870D8500C86534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D8328870D8500C86534 /* ViewController.swift */; };
@@ -39,6 +44,11 @@
 
 /* Begin PBXFileReference section */
 		AD9AB5262887208400CFB078 /* ButtonPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPageViewController.swift; sourceTree = "<group>"; };
+		AD9AB5282887913B00CFB078 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		AD9AB52A2887963200CFB078 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		AD9AB52C2887964600CFB078 /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
+		AD9AB52E2887965500CFB078 /* SongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
+		AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies2ViewController.swift; sourceTree = "<group>"; };
 		BDB67D7C28870D8500C86534 /* TidalWavesFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TidalWavesFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB67D7F28870D8500C86534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB67D8128870D8500C86534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 				BDB67D7F28870D8500C86534 /* AppDelegate.swift */,
 				BDB67D8128870D8500C86534 /* SceneDelegate.swift */,
 				BDB67D8328870D8500C86534 /* ViewController.swift */,
+				AD9AB5282887913B00CFB078 /* MoviesViewController.swift */,
+				AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */,
+				AD9AB52A2887963200CFB078 /* BooksViewController.swift */,
+				AD9AB52C2887964600CFB078 /* FoodsViewController.swift */,
+				AD9AB52E2887965500CFB078 /* SongsViewController.swift */,
 				AD9AB5262887208400CFB078 /* ButtonPageViewController.swift */,
 				BDB67D8528870D8500C86534 /* Main.storyboard */,
 				BDB67D8B28870D8F00C86534 /* Assets.xcassets */,
@@ -265,10 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9AB5272887208400CFB078 /* ButtonPageViewController.swift in Sources */,
+				AD9AB52F2887965500CFB078 /* SongsViewController.swift in Sources */,
+				AD9AB53128879CC800CFB078 /* Movies2ViewController.swift in Sources */,
 				BDB67D8A28870D8600C86534 /* TidalWavesFinalProject.xcdatamodeld in Sources */,
 				BDB67D8428870D8500C86534 /* ViewController.swift in Sources */,
 				BDB67D8028870D8500C86534 /* AppDelegate.swift in Sources */,
 				BDB67D8228870D8500C86534 /* SceneDelegate.swift in Sources */,
+				AD9AB5292887913B00CFB078 /* MoviesViewController.swift in Sources */,
+				AD9AB52D2887964600CFB078 /* FoodsViewController.swift in Sources */,
+				AD9AB52B2887963300CFB078 /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
