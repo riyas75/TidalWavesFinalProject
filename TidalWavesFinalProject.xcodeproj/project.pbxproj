@@ -13,6 +13,7 @@
 		AD9AB52D2887964600CFB078 /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52C2887964600CFB078 /* FoodsViewController.swift */; };
 		AD9AB52F2887965500CFB078 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52E2887965500CFB078 /* SongsViewController.swift */; };
 		AD9AB53128879CC800CFB078 /* Movies2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */; };
+		BDA7422028884537003C4249 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = BDA7421F28884537003C4249 /* giphy.gif */; };
 		BDB67D8028870D8500C86534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D7F28870D8500C86534 /* AppDelegate.swift */; };
 		BDB67D8228870D8500C86534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D8128870D8500C86534 /* SceneDelegate.swift */; };
 		BDB67D8428870D8500C86534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D8328870D8500C86534 /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		AD9AB52C2887964600CFB078 /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
 		AD9AB52E2887965500CFB078 /* SongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
 		AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies2ViewController.swift; sourceTree = "<group>"; };
+		BDA7421F28884537003C4249 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../Desktop/giphy.gif; sourceTree = "<group>"; };
 		BDB67D7C28870D8500C86534 /* TidalWavesFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TidalWavesFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB67D7F28870D8500C86534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB67D8128870D8500C86534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				BDB67D8528870D8500C86534 /* Main.storyboard */,
 				BDB67D8B28870D8F00C86534 /* Assets.xcassets */,
 				BDB67D8D28870D8F00C86534 /* LaunchScreen.storyboard */,
+				BDA7421F28884537003C4249 /* giphy.gif */,
 				BDB67D9028870D8F00C86534 /* Info.plist */,
 				BDB67D8828870D8600C86534 /* TidalWavesFinalProject.xcdatamodeld */,
 			);
@@ -254,6 +257,7 @@
 			files = (
 				BDB67D8F28870D8F00C86534 /* LaunchScreen.storyboard in Resources */,
 				BDB67D8C28870D8F00C86534 /* Assets.xcassets in Resources */,
+				BDA7422028884537003C4249 /* giphy.gif in Resources */,
 				BDB67D8728870D8500C86534 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
