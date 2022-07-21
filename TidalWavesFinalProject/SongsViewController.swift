@@ -8,12 +8,20 @@
 import UIKit
 
 class SongsViewController: UIViewController {
-
+var songGenre = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func genreButton(_ sender: Any) {
+    }
+    
+    
     
 
     /*
