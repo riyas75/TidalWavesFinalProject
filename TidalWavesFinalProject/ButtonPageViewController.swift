@@ -16,16 +16,16 @@ class ButtonPageViewController: UIViewController {
     }
     
     @IBAction func homeButtons(_ sender: UIButton) {
-        if sender.titleLabel!.text == "Movies" {
+        if sender.titleLabel!.text == "MOVIES" {
             performSegue(withIdentifier: "goToMovies", sender: self)
         }
-        else if sender.titleLabel!.text == "Books" {
+        else if sender.titleLabel!.text == "BOOKS" {
             performSegue(withIdentifier: "goToBooks", sender: self)
         }
-        else if sender.titleLabel!.text == "Foods" {
+        else if sender.titleLabel!.text == "FOODS" {
             performSegue(withIdentifier: "goToFoods", sender: self)
         }
-        else if sender.titleLabel!.text == "Songs" {
+        else if sender.titleLabel!.text == "SONGS" {
             performSegue(withIdentifier: "goToSongs", sender: self)
         }
     }
