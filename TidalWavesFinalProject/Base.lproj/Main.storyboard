@@ -654,13 +654,86 @@
                     <view key="view" contentMode="scaleToFill" id="XQX-rn-ZMr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fh0-eY-24G">
+                                <rect key="frame" x="39" y="176" width="336" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="What's your favorite literary genre?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="Futura-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.75" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAl-Pe-kzU">
+                                <rect key="frame" x="131" y="329" width="153" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Fiction">
+                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                    <color key="baseBackgroundColor" red="0.51372549020000002" green="0.75686274509999996" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="BAP-td-6xc"/>
+                                    <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="G1l-Pc-x5s"/>
+                                    <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="myD-jg-9gA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aM9-d1-mx0">
+                                <rect key="frame" x="129" y="398" width="158" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Nonfiction">
+                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                    <color key="baseBackgroundColor" red="0.51372549020000002" green="0.75686274509999996" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="CHg-bf-XP0"/>
+                                    <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="L3B-Ul-cXK"/>
+                                    <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="tgg-vz-RH6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOl-t7-Ka6">
+                                <rect key="frame" x="131" y="541" width="153" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Drama">
+                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                    <color key="baseBackgroundColor" red="0.51372549020000002" green="0.75686274509999996" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="tcC-d8-sNQ"/>
+                                    <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="aYB-y9-oyg"/>
+                                    <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="tkh-da-ekh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4o-kE-36S">
+                                <rect key="frame" x="131" y="470" width="153" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Poetry">
+                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                    <color key="baseBackgroundColor" red="0.51372549020000002" green="0.75686274509999996" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="pMz-mk-aos"/>
+                                    <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="Y0H-1s-vjB"/>
+                                    <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="vp9-3f-5YF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="EpM-Tx-jf1"/>
                         <color key="backgroundColor" red="1" green="0.86666666670000003" blue="0.82745098039999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fXZ-SH-Ly7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1646" y="-364"/>
+            <point key="canvasLocation" x="1644.9275362318842" y="-364.28571428571428"/>
         </scene>
     </scenes>
     <resources>
