@@ -24,7 +24,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="small">
-                                    <color key="baseBackgroundColor" red="0.512285503540863" green="0.75865131609468173" blue="0.81817972660064697" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.51372549019607838" green="0.75686274509803919" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOWER YOUR STRESS TIDES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4t-hL-1Fv">
@@ -50,6 +50,10 @@
                                 <color key="shadowColor" red="0.15294117647058825" green="0.43137254901960786" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="5" height="4"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waves" translatesAutoresizingMaskIntoConstraints="NO" id="As5-b9-OI3">
+                                <rect key="frame" x="-67" y="423" width="717" height="482"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ibl-Bv-9qb">
                                 <rect key="frame" x="79" y="796" width="257" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,14 +81,13 @@
                                     <color key="baseForegroundColor" red="0.40784313729999999" green="0.64313725489999995" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DR4-eb-cDW" kind="presentation" modalPresentationStyle="fullScreen" id="YbE-4F-wL6"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="waves" translatesAutoresizingMaskIntoConstraints="NO" id="As5-b9-OI3">
-                                <rect key="frame" x="-67" y="423" width="717" height="482"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.7379353837146273" green="0.90235092833873409" blue="0.94556254150234376" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.73725490196078436" green="0.90196078431372551" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -99,12 +102,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="LsY-7c-OrU">
+                                <rect key="frame" x="-109" y="470" width="632" height="426"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74C-EI-BzA">
-                                <rect key="frame" x="159" y="277" width="95" height="43"/>
+                                <rect key="frame" x="134" y="227" width="153" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Movies">
-                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                <buttonConfiguration key="configuration" style="filled" title="MOVIES">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117647058818" green="0.74901960784313726" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -114,11 +121,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5e-9P-9u0">
-                                <rect key="frame" x="164" y="340" width="84" height="43"/>
+                                <rect key="frame" x="134" y="294" width="153" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Books">
-                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                <buttonConfiguration key="configuration" style="filled" title="BOOKS">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -126,11 +133,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R92-px-nBj">
-                                <rect key="frame" x="166" y="407" width="81" height="43"/>
+                                <rect key="frame" x="134" y="361" width="153" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Foods">
-                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                <buttonConfiguration key="configuration" style="filled" title="FOODS">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -138,12 +145,19 @@
                                     <segue destination="9ic-Pq-NLC" kind="presentation" identifier="goToFoods" modalPresentationStyle="fullScreen" id="P6A-NB-ZTu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your favorite category of the arts:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQj-yZ-rtD">
+                                <rect key="frame" x="43" y="85" width="328" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="35"/>
+                                <color key="textColor" red="0.40784313729999999" green="0.64313725489999995" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0G-eh-wa6">
-                                <rect key="frame" x="166" y="469" width="81" height="43"/>
+                                <rect key="frame" x="134" y="432" width="153" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Songs">
-                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                <buttonConfiguration key="configuration" style="filled" title="SONGS">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -151,24 +165,11 @@
                                     <segue destination="kg9-Bk-aJ6" kind="presentation" identifier="goToSongs" modalPresentationStyle="fullScreen" id="aPc-UR-3QP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQj-yZ-rtD">
-                                <rect key="frame" x="66" y="161" width="283" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Choose a category for your recommendation:">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="27" name="Futura-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s3y-Fz-eX4"/>
-                        <color key="backgroundColor" red="0.99215686270000003" green="0.97254901959999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.73725490196078436" green="0.90196078431372551" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8Mo-ca-ogs"/>
                     <connections>
                         <segue destination="zRW-gr-7F8" kind="presentation" identifier="goToMovies" modalPresentationStyle="fullScreen" id="rEQ-fZ-c60"/>
                         <segue destination="yYw-eT-4Dx" kind="presentation" identifier="goToBooks" modalPresentationStyle="fullScreen" id="bKO-Kd-xzR"/>
@@ -465,6 +466,7 @@
     <resources>
         <image name="ImageNameHere" width="1000" height="700"/>
         <image name="NicePng_full-moon-png_89788" width="600" height="600"/>
+        <image name="beach" width="500" height="500"/>
         <image name="project" width="1920" height="1080"/>
         <image name="project 2" width="720" height="1280"/>
         <image name="project 4" width="238" height="250"/>
