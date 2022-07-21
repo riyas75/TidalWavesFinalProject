@@ -8,14 +8,30 @@
 import UIKit
 
 class Movies4ViewController: UIViewController {
-
+    var moviePeople = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func peoplePressed(_ sender: UIButton) {
+        if sender.titleLabel!.text == "Myself" {
+            moviePeople = "Myself"
+        }
+        else if sender.titleLabel!.text == "Friend(s)" {
+            moviePeople = "Friends"
+        }
+        else if sender.titleLabel!.text == "Family (Adults)" {
+            moviePeople = "Adults"
+        }
+        else if sender.titleLabel!.text == "Family (Kids)" {
+            moviePeople = "Kids"
+        }
+        performSegue(withIdentifier: "goToAnswer", sender: self)
+    }
+    
     /*
     // MARK: - Navigation
 
