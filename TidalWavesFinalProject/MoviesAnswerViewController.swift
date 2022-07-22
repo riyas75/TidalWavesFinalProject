@@ -9,10 +9,13 @@ import UIKit
 
 class MoviesAnswerViewController: UIViewController {
 
+    var moviePlatform : String = ""
+    @IBOutlet weak var recImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        recImage.image = UIImage(named:"\(moviePlatform)")
     }
     
 

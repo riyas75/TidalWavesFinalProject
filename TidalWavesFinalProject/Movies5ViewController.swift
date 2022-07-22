@@ -1,5 +1,5 @@
 //
-//  Movies4ViewController.swift
+//  Movies5ViewController.swift
 //  TidalWavesFinalProject
 //
 //  Created by Arielle Nudelman on 7/21/22.
@@ -7,29 +7,29 @@
 
 import UIKit
 
-class Movies4ViewController: UIViewController {
-    var moviePeople = ""
-    
+class Movies5ViewController: UIViewController {
+    var moviePlatform = ""
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func peoplePressed(_ sender: UIButton) {
-        if sender.titleLabel!.text == "Myself" {
-            moviePeople = "Myself"
+    @IBAction func platformButton(_ sender: UIButton) {
+        if sender.titleLabel!.text == "Doesn't matter" {
+            moviePlatform = "Doesn't matter"
         }
-        else if sender.titleLabel!.text == "Friend(s)" {
-            moviePeople = "Friends"
+        else if sender.titleLabel!.text == "Netflix" {
+            moviePlatform = "Netflix"
         }
-        else if sender.titleLabel!.text == "Family (Adults)" {
-            moviePeople = "Adults"
+        else if sender.titleLabel!.text == "Hulu" {
+            moviePlatform = "Hulu"
         }
-        else if sender.titleLabel!.text == "Family (Kids)" {
-            moviePeople = "Kids"
+        else if sender.titleLabel!.text == "Prime Video" {
+            moviePlatform = "Prime Video"
         }
-        performSegue(withIdentifier: "goToPlatform", sender: self)
+        performSegue(withIdentifier: "goToAnswer", sender: self)
     }
     
     /*

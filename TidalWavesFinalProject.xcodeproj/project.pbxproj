@@ -10,6 +10,7 @@
 		AD162A0128898B21006C965D /* Movies3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD162A0028898B21006C965D /* Movies3ViewController.swift */; };
 		AD162A0328898B30006C965D /* Movies4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD162A0228898B30006C965D /* Movies4ViewController.swift */; };
 		AD162A0528898B48006C965D /* MoviesAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD162A0428898B48006C965D /* MoviesAnswerViewController.swift */; };
+		AD423A0A288A330A005D67CF /* Movies5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD423A09288A330A005D67CF /* Movies5ViewController.swift */; };
 		AD9AB5272887208400CFB078 /* ButtonPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB5262887208400CFB078 /* ButtonPageViewController.swift */; };
 		AD9AB5292887913B00CFB078 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB5282887913B00CFB078 /* MoviesViewController.swift */; };
 		AD9AB52B2887963300CFB078 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52A2887963200CFB078 /* BooksViewController.swift */; };
@@ -49,6 +50,7 @@
 		AD162A0028898B21006C965D /* Movies3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies3ViewController.swift; sourceTree = "<group>"; };
 		AD162A0228898B30006C965D /* Movies4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies4ViewController.swift; sourceTree = "<group>"; };
 		AD162A0428898B48006C965D /* MoviesAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAnswerViewController.swift; sourceTree = "<group>"; };
+		AD423A09288A330A005D67CF /* Movies5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies5ViewController.swift; sourceTree = "<group>"; };
 		AD9AB5262887208400CFB078 /* ButtonPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPageViewController.swift; sourceTree = "<group>"; };
 		AD9AB5282887913B00CFB078 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		AD9AB52A2887963200CFB078 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */,
 				AD162A0028898B21006C965D /* Movies3ViewController.swift */,
 				AD162A0228898B30006C965D /* Movies4ViewController.swift */,
+				AD423A09288A330A005D67CF /* Movies5ViewController.swift */,
 				AD162A0428898B48006C965D /* MoviesAnswerViewController.swift */,
 				AD9AB52A2887963200CFB078 /* BooksViewController.swift */,
 				AD9AB52C2887964600CFB078 /* FoodsViewController.swift */,
@@ -291,6 +294,7 @@
 				AD9AB5272887208400CFB078 /* ButtonPageViewController.swift in Sources */,
 				AD9AB52F2887965500CFB078 /* SongsViewController.swift in Sources */,
 				AD9AB53128879CC800CFB078 /* Movies2ViewController.swift in Sources */,
+				AD423A0A288A330A005D67CF /* Movies5ViewController.swift in Sources */,
 				BDB67D8A28870D8600C86534 /* TidalWavesFinalProject.xcdatamodeld in Sources */,
 				AD162A0328898B30006C965D /* Movies4ViewController.swift in Sources */,
 				BDB67D8428870D8500C86534 /* ViewController.swift in Sources */,
