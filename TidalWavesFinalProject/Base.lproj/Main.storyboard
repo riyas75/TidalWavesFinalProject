@@ -1022,9 +1022,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-dF-DOk">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <rect key="frame" x="20" y="320" width="374" height="437"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOb-Po-9ll">
+                                <rect key="frame" x="300" y="73" width="75" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Home">
+                                    <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="29"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.99215686270000003" green="0.97254901959999995" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DR4-eb-cDW" kind="presentation" modalPresentationStyle="fullScreen" id="bfb-x3-WFN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XuN-8W-3Bh"/>
                         <color key="backgroundColor" red="0.79607843140000001" green="0.88235294119999996" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -1468,6 +1481,9 @@
             <point key="canvasLocation" x="1644.9275362318842" y="-364.28571428571428"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bfb-x3-WFN"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="NicePng_full-moon-png_89788" width="600" height="600"/>
         <image name="beach" width="500" height="500"/>

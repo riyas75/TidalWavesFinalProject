@@ -10,12 +10,14 @@ import UIKit
 class MoviesAnswerViewController: UIViewController {
 
     var moviePlatform : String = ""
+    var movieRating : String = ""
+    var movieType : String = ""
     @IBOutlet weak var recImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        recImage.image = UIImage(named:"\(moviePlatform)")
+        recImage.image = UIImage(named:"\(movieType)\(movieRating)\(moviePlatform)")
     }
     
 

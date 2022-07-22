@@ -18,20 +18,25 @@ class MoviesViewController: UIViewController {
     
     @IBAction func typeButton(_ sender: UIButton) {
         if sender.titleLabel!.text == "Romance" {
-            movieType = "Romance"
+            movieType = "1"
         }
         else if sender.titleLabel!.text == "Comedy" {
-            movieType = "Comedy"
+            movieType = "2"
         }
         else if sender.titleLabel!.text == "Horror" {
-            movieType = "Horror"
+            movieType = "3"
         }
         else if sender.titleLabel!.text == "Action" {
-            movieType = "Action"
+            movieType = "4"
         }
         performSegue(withIdentifier: "goToRating", sender: self)
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as? Movies2ViewController
+        destinationVC?.movieType = movieType
+    }
     /*
     // MARK: - Navigation
 

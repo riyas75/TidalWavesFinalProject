@@ -9,6 +9,8 @@ import UIKit
 
 class Movies3ViewController: UIViewController {
     var movieFeeling = ""
+    var movieRating : String = ""
+    var movieType : String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +34,12 @@ class Movies3ViewController: UIViewController {
         performSegue(withIdentifier: "goToPeople", sender: self)
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as? Movies4ViewController
+        destinationVC?.movieType = movieType
+        destinationVC?.movieRating = movieRating
+    }
     /*
     // MARK: - Navigation
 
