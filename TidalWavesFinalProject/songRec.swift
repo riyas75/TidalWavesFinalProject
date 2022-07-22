@@ -1,17 +1,14 @@
 //
-//  SongsFeelings.swift
+//  songRec.swift
 //  TidalWavesFinalProject
 //
-//  Created by scholar on 7/21/22.
+//  Created by scholar on 7/22/22.
 //
 
 import UIKit
 
-class SongsFeelings: UIViewController {
-var yourFeeling = ""
-    
-    
-    
+class songRec: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

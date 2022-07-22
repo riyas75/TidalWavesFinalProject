@@ -117,13 +117,13 @@
                                 <attributedString key="attributedText">
                                     <fragment content="I hope your day is as amazing as you are">
                                         <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" size="40" name="Futura-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="0.75" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" red="0.1529411765" green="0.43137254899999999" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
@@ -415,6 +415,7 @@
                                 <connections>
                                     <action selector="ratingButton:" destination="B7S-Nv-228" eventType="touchUpInside" id="WB8-Np-5sy"/>
                                     <action selector="ratingButton:" destination="Ie2-RA-mEn" eventType="touchUpInside" id="tMy-AO-wAb"/>
+                                    <segue destination="Dbb-To-yIu" kind="presentation" modalPresentationStyle="fullScreen" id="f3u-SO-H3M"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Is8-EL-6Lw">
@@ -429,6 +430,7 @@
                                 <connections>
                                     <action selector="ratingButton:" destination="B7S-Nv-228" eventType="touchUpInside" id="ZLD-oQ-JcB"/>
                                     <action selector="ratingButton:" destination="Ie2-RA-mEn" eventType="touchUpInside" id="aDS-Kp-9GZ"/>
+                                    <segue destination="Dbb-To-yIu" kind="presentation" modalPresentationStyle="fullScreen" id="K3e-J7-qX2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOW-m1-Hf1">
@@ -443,6 +445,7 @@
                                 <connections>
                                     <action selector="ratingButton:" destination="B7S-Nv-228" eventType="touchUpInside" id="Yrz-HA-bot"/>
                                     <action selector="ratingButton:" destination="Ie2-RA-mEn" eventType="touchUpInside" id="gvr-Gv-yiW"/>
+                                    <segue destination="Dbb-To-yIu" kind="presentation" modalPresentationStyle="fullScreen" id="iA7-g8-h8n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97d-HX-URG">
@@ -457,6 +460,7 @@
                                 <connections>
                                     <action selector="ratingButton:" destination="Ie2-RA-mEn" eventType="touchUpInside" id="6w8-rF-H3h"/>
                                     <action selector="ratingButton:" destination="B7S-Nv-228" eventType="touchUpInside" id="HVw-8q-WB1"/>
+                                    <segue destination="Dbb-To-yIu" kind="presentation" modalPresentationStyle="fullScreen" id="tDC-Bz-M3i"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -496,6 +500,7 @@
                                 <connections>
                                     <action selector="ratingButton:" destination="Ie2-RA-mEn" eventType="touchUpInside" id="WFt-ir-C49"/>
                                     <action selector="ratingButton:" destination="B7S-Nv-228" eventType="touchUpInside" id="hxy-ZB-77l"/>
+                                    <segue destination="OSc-Sr-eKj" kind="presentation" modalPresentationStyle="fullScreen" id="3kN-aQ-aPU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHw-mI-07U">
@@ -510,6 +515,7 @@
                                 <connections>
                                     <action selector="ratingButton:" destination="B7S-Nv-228" eventType="touchUpInside" id="M6b-nl-a5j"/>
                                     <action selector="ratingButton:" destination="Ie2-RA-mEn" eventType="touchUpInside" id="QFT-we-Pki"/>
+                                    <segue destination="OSc-Sr-eKj" kind="presentation" modalPresentationStyle="fullScreen" id="bxR-hN-9VM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0F-XX-qTF">
@@ -524,6 +530,7 @@
                                 <connections>
                                     <action selector="ratingButton:" destination="B7S-Nv-228" eventType="touchUpInside" id="ELH-B3-opA"/>
                                     <action selector="ratingButton:" destination="Ie2-RA-mEn" eventType="touchUpInside" id="ROv-Ae-1YK"/>
+                                    <segue destination="OSc-Sr-eKj" kind="presentation" modalPresentationStyle="fullScreen" id="Yfn-ic-QKM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -538,7 +545,7 @@
         <!--SongFinal-->
         <scene sceneID="Prb-AF-iZK">
             <objects>
-                <viewController title="SongFinal" id="OSc-Sr-eKj" sceneMemberID="viewController">
+                <viewController title="SongFinal" id="OSc-Sr-eKj" customClass="songRec" customModule="TidalWavesFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B2v-Hj-VAd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -550,6 +557,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hugme" translatesAutoresizingMaskIntoConstraints="NO" id="FJt-vX-N8l">
+                                <rect key="frame" x="68" y="432" width="284" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-22 at 10.31.52 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Y73-qa-FAA">
+                                <rect key="frame" x="68" y="603" width="284" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="Ww9-CK-bBh">
+                                <rect key="frame" x="86" y="192" width="249" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2pF-Vu-OlQ"/>
                         <color key="backgroundColor" red="1" green="0.94966175707753298" blue="0.88424477049774486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -557,7 +576,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pbG-ZP-zg7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="807" y="2732"/>
+            <point key="canvasLocation" x="805.79710144927537" y="2731.4732142857142"/>
         </scene>
         <!--Foods View Controller-->
         <scene sceneID="SY3-YE-kA0">
@@ -1894,7 +1913,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uks-Og-dlI"/>
+        <segue reference="Yfn-ic-QKM"/>
+        <segue reference="tDC-Bz-M3i"/>
         <segue reference="Nld-8h-0Gq"/>
         <segue reference="bfb-x3-WFN"/>
     </inferredMetricsTieBreakers>
@@ -1903,12 +1923,15 @@
         <image name="Metal Poster Soothing Retro Swirls Sage" width="280" height="392"/>
         <image name="Mixology - Tonic in Mint from Camelot fabrics" width="570" height="524"/>
         <image name="NicePng_full-moon-png_89788" width="600" height="600"/>
+        <image name="Screen Shot 2022-07-22 at 10.31.52 AM" width="1450" height="1438"/>
         <image name="TidalWavesLogo" width="500" height="500"/>
         <image name="beach" width="500" height="500"/>
         <image name="design 12" width="218" height="231"/>
         <image name="grid backgrounds masterpost" width="500" height="500"/>
         <image name="heart.text.square" catalog="system" width="128" height="114"/>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="hugme" width="1280" height="720"/>
+        <image name="poker" width="640" height="640"/>
         <image name="project" width="1920" height="1080"/>
         <image name="project 11" width="300" height="168"/>
         <image name="project 15" width="216" height="233"/>
