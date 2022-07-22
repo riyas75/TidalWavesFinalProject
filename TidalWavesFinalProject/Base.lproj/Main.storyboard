@@ -534,7 +534,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here Are Your Song Selections!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNB-RJ-SyI">
-                                <rect key="frame" x="26" y="1" width="372" height="236"/>
+                                <rect key="frame" x="26" y="67" width="372" height="170"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -549,9 +549,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poker" translatesAutoresizingMaskIntoConstraints="NO" id="Ww9-CK-bBh">
-                                <rect key="frame" x="86" y="192" width="249" height="233"/>
+                                <rect key="frame" x="86" y="204" width="249" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xk-Th-yEq">
+                                <rect key="frame" x="20" y="44" width="93" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="house" catalog="system" title="" cornerStyle="capsule">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large" weight="semibold"/>
+                                    <color key="baseForegroundColor" red="0.40784313729999999" green="0.64313725489999995" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DR4-eb-cDW" kind="presentation" modalPresentationStyle="fullScreen" id="VJe-fC-Ba8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2pF-Vu-OlQ"/>
                         <color key="backgroundColor" red="1" green="0.94966175707753298" blue="0.88424477049774486" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -642,7 +655,7 @@
                                     <color key="baseBackgroundColor" red="0.60392156860000001" green="0.80392156859999997" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="4wo-Du-PB6" kind="show" id="dCC-2o-vhf"/>
+                                    <segue destination="4wo-Du-PB6" kind="presentation" modalPresentationStyle="fullScreen" id="dCC-2o-vhf"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="WMx-3p-YQS">
@@ -676,7 +689,7 @@
             <objects>
                 <viewController title="Food View Controller 2" id="4wo-Du-PB6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Px0-62-7DS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePR-SY-gBV">
@@ -715,18 +728,6 @@
                                     <color key="baseBackgroundColor" red="0.70888794850000003" green="0.79750540579999996" blue="0.67657418439999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3t-gn-bEx">
-                                <rect key="frame" x="299" y="692" width="70" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next">
-                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
-                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.80392156859999997" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="UAD-LD-IJS" kind="show" id="m4E-dV-t8z"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunRays" translatesAutoresizingMaskIntoConstraints="NO" id="LHp-Le-Ccs">
                                 <rect key="frame" x="42" y="-13" width="393" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -764,13 +765,25 @@
                                 </buttonConfiguration>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="T0B-eY-K3T">
-                                <rect key="frame" x="-17" y="552" width="452" height="290"/>
+                                <rect key="frame" x="-20" y="606" width="452" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="GjJ-Lj-0e5">
-                                <rect key="frame" x="-17" y="518" width="452" height="290"/>
+                                <rect key="frame" x="-20" y="572" width="452" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X3t-gn-bEx">
+                                <rect key="frame" x="299" y="730" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next">
+                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.80392156859999997" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="UAD-LD-IJS" kind="presentation" modalPresentationStyle="fullScreen" id="m4E-dV-t8z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o1b-V0-1Hc"/>
                         <color key="backgroundColor" red="0.80820935799089577" green="0.92997495092526827" blue="0.83575740761355888" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -786,7 +799,7 @@
             <objects>
                 <viewController title="Food View Controller 3 Scene" id="UAD-LD-IJS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eLh-2T-yg8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0x-sM-SwF">
@@ -824,18 +837,6 @@
                                     <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
                                     <color key="baseBackgroundColor" red="0.96952967990000005" green="0.824451304" blue="0.62145268109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2B-7T-sL1">
-                                <rect key="frame" x="299" y="693" width="70" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next">
-                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
-                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.80392156859999997" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Irc-ZZ-dhO" kind="showDetail" id="apu-AC-TPx"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunRays" translatesAutoresizingMaskIntoConstraints="NO" id="HFN-XT-Mvl">
                                 <rect key="frame" x="49" y="-22" width="393" height="334"/>
@@ -879,13 +880,25 @@
                                 </buttonConfiguration>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="Skf-Ab-1D8">
-                                <rect key="frame" x="-29" y="518" width="452" height="290"/>
+                                <rect key="frame" x="-24" y="572" width="452" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="oid-gd-yg9">
-                                <rect key="frame" x="-19" y="552" width="452" height="290"/>
+                                <rect key="frame" x="-14" y="606" width="452" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2B-7T-sL1">
+                                <rect key="frame" x="304" y="747" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next">
+                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.80392156859999997" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Irc-ZZ-dhO" kind="presentation" modalPresentationStyle="fullScreen" id="apu-AC-TPx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TUW-Lh-nTl"/>
                         <color key="backgroundColor" red="1" green="0.96470588235294119" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -901,7 +914,7 @@
             <objects>
                 <viewController title="Food view controller 4 scene" id="Irc-ZZ-dhO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dvd-uh-ail">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8E-5K-6qj">
@@ -956,18 +969,6 @@
                                 <rect key="frame" x="81" y="20" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiI-B0-zQM">
-                                <rect key="frame" x="309" y="673" width="70" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Next">
-                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
-                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.80392156859999997" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="UJ3-ea-9zE" kind="show" id="6w3-Uv-csg"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="project 6" translatesAutoresizingMaskIntoConstraints="NO" id="oxK-F0-woz">
                                 <rect key="frame" x="154" y="52" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1000,13 +1001,25 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="zm7-fa-I29">
-                                <rect key="frame" x="-24" y="552" width="452" height="290"/>
+                                <rect key="frame" x="-25" y="606" width="452" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="VUC-G8-PhB">
-                                <rect key="frame" x="-24" y="533" width="452" height="290"/>
+                                <rect key="frame" x="-25" y="587" width="452" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiI-B0-zQM">
+                                <rect key="frame" x="307" y="727" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next">
+                                    <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="22"/>
+                                    <color key="baseBackgroundColor" red="0.60392156860000001" green="0.80392156859999997" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="UJ3-ea-9zE" kind="presentation" modalPresentationStyle="fullScreen" id="6w3-Uv-csg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nLP-uI-hqV"/>
                         <color key="backgroundColor" red="0.80636453993778023" green="1" blue="0.93027534276884771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1021,7 +1034,7 @@
             <objects>
                 <viewController title="Food view controller 4 recommendation" id="UJ3-ea-9zE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ikm-AK-Fed">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunRays" translatesAutoresizingMaskIntoConstraints="NO" id="ZYB-CI-9lu">
@@ -1051,14 +1064,6 @@
                                 <rect key="frame" x="78" y="271" width="259" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="nHI-QD-vXB">
-                                <rect key="frame" x="-9" y="552" width="452" height="290"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="Ovz-4y-2lE">
-                                <rect key="frame" x="-19" y="502" width="452" height="290"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pd4-UI-Rkl">
                                 <rect key="frame" x="186" y="342" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1066,8 +1071,16 @@
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="nHI-QD-vXB">
+                                <rect key="frame" x="-14" y="606" width="452" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovepik_com-400205280-clear-blue-sea-water" translatesAutoresizingMaskIntoConstraints="NO" id="Ovz-4y-2lE">
+                                <rect key="frame" x="-24" y="556" width="452" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bya-j2-KdW">
-                                <rect key="frame" x="311" y="648" width="93" height="66"/>
+                                <rect key="frame" x="305" y="702" width="93" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="house" catalog="system" title="" cornerStyle="capsule">
@@ -1076,7 +1089,7 @@
                                     <color key="baseBackgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="DR4-eb-cDW" kind="show" id="d24-Y6-64U"/>
+                                    <segue destination="DR4-eb-cDW" kind="presentation" modalPresentationStyle="fullScreen" id="d24-Y6-64U"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1617,11 +1630,7 @@
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="genreButton:" destination="yYw-eT-4Dx" eventType="touchUpInside" id="iC3-rr-1y5"/>
-                                    <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="BAP-td-6xc"/>
-                                    <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="G1l-Pc-x5s"/>
-                                    <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="myD-jg-9gA"/>
-                                    <segue destination="BQO-8L-5FA" kind="show" id="dqt-P5-CwJ"/>
+                                    <segue destination="BQO-8L-5FA" kind="presentation" modalPresentationStyle="fullScreen" id="gJH-mf-f5T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aM9-d1-mx0">
@@ -1636,7 +1645,7 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="CHg-bf-XP0"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="L3B-Ul-cXK"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="tgg-vz-RH6"/>
-                                    <segue destination="BQO-8L-5FA" kind="show" id="rLx-Ir-1oW"/>
+                                    <segue destination="BQO-8L-5FA" kind="presentation" modalPresentationStyle="fullScreen" id="rLx-Ir-1oW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOl-t7-Ka6">
@@ -1651,7 +1660,7 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="tcC-d8-sNQ"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="aYB-y9-oyg"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="tkh-da-ekh"/>
-                                    <segue destination="BQO-8L-5FA" kind="show" id="TN9-ZD-k7H"/>
+                                    <segue destination="BQO-8L-5FA" kind="presentation" modalPresentationStyle="fullScreen" id="TN9-ZD-k7H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4o-kE-36S">
@@ -1666,7 +1675,7 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="pMz-mk-aos"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="Y0H-1s-vjB"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="vp9-3f-5YF"/>
-                                    <segue destination="BQO-8L-5FA" kind="show" id="oP4-Zp-RoX"/>
+                                    <segue destination="BQO-8L-5FA" kind="presentation" modalPresentationStyle="fullScreen" id="oP4-Zp-RoX"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's your favorite literary genre?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1s-AV-WI6">
@@ -1696,11 +1705,11 @@
             <objects>
                 <viewController id="BQO-8L-5FA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xwr-Au-udX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3w-wL-ipI">
-                                <rect key="frame" x="38" y="186" width="336" height="53"/>
+                                <rect key="frame" x="39" y="240" width="336" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Something funny">
@@ -1711,11 +1720,11 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="8EH-6k-STB"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="N3m-K3-gE5"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="pBO-aQ-aHX"/>
-                                    <segue destination="dvS-EM-qvv" kind="show" id="GdP-uT-1eI"/>
+                                    <segue destination="dvS-EM-qvv" kind="presentation" modalPresentationStyle="fullScreen" id="GdP-uT-1eI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ch8-yc-huX">
-                                <rect key="frame" x="36" y="255" width="342" height="53"/>
+                                <rect key="frame" x="37" y="309" width="342" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Something adventurous">
@@ -1726,11 +1735,11 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="2Tz-Bp-KEz"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="YiJ-Ey-5HQ"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="txe-eI-WO0"/>
-                                    <segue destination="dvS-EM-qvv" kind="show" id="xHr-V2-PD2"/>
+                                    <segue destination="dvS-EM-qvv" kind="presentation" modalPresentationStyle="fullScreen" id="xHr-V2-PD2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbB-D5-M1d">
-                                <rect key="frame" x="38" y="398" width="340" height="53"/>
+                                <rect key="frame" x="39" y="452" width="340" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Something romantic">
@@ -1741,11 +1750,11 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="zdM-4H-4h2"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="4Nt-9o-wfH"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="FJo-Tf-4Ej"/>
-                                    <segue destination="dvS-EM-qvv" kind="show" id="uUH-Kl-321"/>
+                                    <segue destination="dvS-EM-qvv" kind="presentation" modalPresentationStyle="fullScreen" id="uUH-Kl-321"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zR-7O-Ubw">
-                                <rect key="frame" x="36" y="327" width="342" height="53"/>
+                                <rect key="frame" x="37" y="381" width="342" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Something suspenseful">
@@ -1754,14 +1763,11 @@
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="mbr-Tn-hUl"/>
-                                    <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="F9M-Cd-3Tp"/>
-                                    <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="slo-FV-mcg"/>
-                                    <segue destination="dvS-EM-qvv" kind="show" id="z3h-w5-WlX"/>
+                                    <segue destination="dvS-EM-qvv" kind="presentation" modalPresentationStyle="fullScreen" id="gvR-5V-lml"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are you in the mood for right now?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vN0-CX-dLA">
-                                <rect key="frame" x="24" y="21" width="370" height="157"/>
+                                <rect key="frame" x="25" y="75" width="370" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1770,7 +1776,7 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="Brt-XF-kL9">
-                                <rect key="frame" x="-110" y="416" width="632" height="426"/>
+                                <rect key="frame" x="-109" y="470" width="632" height="426"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1788,11 +1794,11 @@
             <objects>
                 <viewController id="dvS-EM-qvv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VS0-Zh-zxl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1R-fu-iYl">
-                                <rect key="frame" x="71" y="183" width="272" height="53"/>
+                                <rect key="frame" x="71" y="237" width="272" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Atticus Finch">
@@ -1803,11 +1809,11 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="Ut6-wl-hFF"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="c9u-V4-uaO"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="xge-ie-YgC"/>
-                                    <segue destination="K64-pX-e9a" kind="show" id="b77-Wx-rmY"/>
+                                    <segue destination="K64-pX-e9a" kind="presentation" modalPresentationStyle="fullScreen" id="b77-Wx-rmY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnp-dp-JBd">
-                                <rect key="frame" x="71" y="252" width="272" height="53"/>
+                                <rect key="frame" x="71" y="306" width="272" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Hermione Granger">
@@ -1815,14 +1821,11 @@
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="eZk-Ny-1xq"/>
-                                    <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="nBw-fa-vJL"/>
-                                    <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="qW2-Np-Gfk"/>
-                                    <segue destination="K64-pX-e9a" kind="show" id="hHx-F8-9J1"/>
+                                    <segue destination="K64-pX-e9a" kind="presentation" modalPresentationStyle="fullScreen" id="Xj3-sv-JZ0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiC-uu-uF9">
-                                <rect key="frame" x="71" y="322" width="272" height="53"/>
+                                <rect key="frame" x="71" y="376" width="272" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Percy Jackson">
@@ -1833,11 +1836,11 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="IfC-dK-Us1"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="4Ji-5f-aZy"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="UGK-bP-VcE"/>
-                                    <segue destination="K64-pX-e9a" kind="show" id="lh5-Vn-4lo"/>
+                                    <segue destination="K64-pX-e9a" kind="presentation" modalPresentationStyle="fullScreen" id="lh5-Vn-4lo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHd-XN-nEi">
-                                <rect key="frame" x="71" y="394" width="272" height="53"/>
+                                <rect key="frame" x="71" y="448" width="272" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="The Cat in the Hat">
@@ -1848,11 +1851,11 @@
                                     <action selector="homeButton:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="u1u-Zd-aAd"/>
                                     <action selector="homeButtons:" destination="DR4-eb-cDW" eventType="touchUpInside" id="GAe-JJ-W4a"/>
                                     <action selector="homeButtons:" destination="Gfh-yg-AH3" eventType="touchUpInside" id="Jxi-RH-gU9"/>
-                                    <segue destination="K64-pX-e9a" kind="show" id="2Qf-Gt-cE2"/>
+                                    <segue destination="K64-pX-e9a" kind="presentation" modalPresentationStyle="fullScreen" id="2Qf-Gt-cE2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you were a book character, who would you be?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxT-5Q-wXJ">
-                                <rect key="frame" x="39" y="34" width="336" height="127"/>
+                                <rect key="frame" x="39" y="88" width="336" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1861,7 +1864,7 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="c9Y-Da-AqD">
-                                <rect key="frame" x="-109" y="416" width="632" height="426"/>
+                                <rect key="frame" x="-109" y="470" width="632" height="426"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1879,11 +1882,11 @@
             <objects>
                 <viewController id="K64-pX-e9a" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TLi-5Q-aJl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is your sign to read this book right now..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7N7-Vr-VeK">
-                                <rect key="frame" x="39" y="140" width="336" height="140"/>
+                                <rect key="frame" x="40" y="179" width="336" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1892,11 +1895,11 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alchemist" translatesAutoresizingMaskIntoConstraints="NO" id="Auz-0H-dSf">
-                                <rect key="frame" x="-104" y="178" width="622" height="645"/>
+                                <rect key="frame" x="-104" y="217" width="622" height="645"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amZ-Wd-4kB">
-                                <rect key="frame" x="39" y="44" width="93" height="66"/>
+                                <rect key="frame" x="40" y="83" width="93" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="house" catalog="system" title="" cornerStyle="capsule">
@@ -1904,6 +1907,9 @@
                                     <color key="baseForegroundColor" red="0.40784313729999999" green="0.64313725489999995" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.96470588239999999" green="0.94901960780000005" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DR4-eb-cDW" kind="presentation" modalPresentationStyle="fullScreen" id="fdK-Hf-UlA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hj6-bd-8zg"/>
@@ -1917,13 +1923,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2Qf-Gt-cE2"/>
-        <segue reference="GdP-uT-1eI"/>
-        <segue reference="oP4-Zp-RoX"/>
+        <segue reference="Xj3-sv-JZ0"/>
+        <segue reference="gvR-5V-lml"/>
+        <segue reference="rLx-Ir-1oW"/>
         <segue reference="Yfn-ic-QKM"/>
         <segue reference="tDC-Bz-M3i"/>
         <segue reference="Nld-8h-0Gq"/>
-        <segue reference="bfb-x3-WFN"/>
+        <segue reference="fdK-Hf-UlA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Lovepik_com-400205280-clear-blue-sea-water" width="1674.3333740234375" height="1116.3333740234375"/>
