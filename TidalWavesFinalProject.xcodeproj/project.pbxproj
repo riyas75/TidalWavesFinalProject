@@ -17,6 +17,7 @@
 		AD9AB52D2887964600CFB078 /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52C2887964600CFB078 /* FoodsViewController.swift */; };
 		AD9AB52F2887965500CFB078 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB52E2887965500CFB078 /* SongsViewController.swift */; };
 		AD9AB53128879CC800CFB078 /* Movies2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */; };
+		BD889C31288A544400F7BC70 /* SongsFeelings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD889C30288A544400F7BC70 /* SongsFeelings.swift */; };
 		BDB67D8028870D8500C86534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D7F28870D8500C86534 /* AppDelegate.swift */; };
 		BDB67D8228870D8500C86534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D8128870D8500C86534 /* SceneDelegate.swift */; };
 		BDB67D8428870D8500C86534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB67D8328870D8500C86534 /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 		AD9AB52C2887964600CFB078 /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
 		AD9AB52E2887965500CFB078 /* SongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
 		AD9AB53028879CC800CFB078 /* Movies2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies2ViewController.swift; sourceTree = "<group>"; };
+		BD889C30288A544400F7BC70 /* SongsFeelings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsFeelings.swift; sourceTree = "<group>"; };
 		BDB67D7C28870D8500C86534 /* TidalWavesFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TidalWavesFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB67D7F28870D8500C86534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB67D8128870D8500C86534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				BDB67D8D28870D8F00C86534 /* LaunchScreen.storyboard */,
 				BDB67D9028870D8F00C86534 /* Info.plist */,
 				BDB67D8828870D8600C86534 /* TidalWavesFinalProject.xcdatamodeld */,
+				BD889C30288A544400F7BC70 /* SongsFeelings.swift */,
 			);
 			path = TidalWavesFinalProject;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				AD423A0A288A330A005D67CF /* Movies5ViewController.swift in Sources */,
 				BDB67D8A28870D8600C86534 /* TidalWavesFinalProject.xcdatamodeld in Sources */,
 				AD162A0328898B30006C965D /* Movies4ViewController.swift in Sources */,
+				BD889C31288A544400F7BC70 /* SongsFeelings.swift in Sources */,
 				BDB67D8428870D8500C86534 /* ViewController.swift in Sources */,
 				BDB67D8028870D8500C86534 /* AppDelegate.swift in Sources */,
 				BDB67D8228870D8500C86534 /* SceneDelegate.swift in Sources */,

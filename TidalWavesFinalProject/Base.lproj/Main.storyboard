@@ -220,6 +220,9 @@
                                     <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c8X-a5-LaU" kind="presentation" modalPresentationStyle="fullScreen" id="DWI-5a-Jed"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NqI-wH-YYq">
                                 <rect key="frame" x="113" y="435" width="194" height="53"/>
@@ -229,6 +232,9 @@
                                     <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c8X-a5-LaU" kind="presentation" modalPresentationStyle="fullScreen" id="ZXe-2p-S9h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGC-rd-eWI">
                                 <rect key="frame" x="72" y="521" width="279" height="53"/>
@@ -238,6 +244,9 @@
                                     <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c8X-a5-LaU" kind="presentation" modalPresentationStyle="fullScreen" id="Nld-8h-0Gq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiE-VN-zDE">
                                 <rect key="frame" x="112" y="605" width="208" height="53"/>
@@ -247,6 +256,9 @@
                                     <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c8X-a5-LaU" kind="presentation" modalPresentationStyle="fullScreen" id="UzI-SB-ifm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmX-yS-8BF">
                                 <rect key="frame" x="152" y="691" width="128" height="53"/>
@@ -256,6 +268,9 @@
                                     <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c8X-a5-LaU" kind="presentation" modalPresentationStyle="fullScreen" id="vC8-Wj-3bi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gL1-hL-1kN">
                                 <rect key="frame" x="162" y="279" width="87" height="53"/>
@@ -265,9 +280,12 @@
                                     <fontDescription key="titleFontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
                                     <color key="baseBackgroundColor" red="0.95294117649999999" green="0.74901960779999999" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="c8X-a5-LaU" kind="presentation" modalPresentationStyle="fullScreen" id="SHA-Ap-yMN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnR-ys-Ioo">
-                                <rect key="frame" x="169" y="197" width="75" height="53"/>
+                                <rect key="frame" x="173" y="191" width="75" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Pop">
@@ -276,6 +294,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="genreButton:" destination="kg9-Bk-aJ6" eventType="touchUpInside" id="cnd-ez-Pui"/>
+                                    <segue destination="c8X-a5-LaU" kind="presentation" identifier="goToFeeling" modalPresentationStyle="fullScreen" id="4H0-Ga-eoC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -287,10 +306,10 @@
             </objects>
             <point key="canvasLocation" x="811.59420289855075" y="744.64285714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--SongsFeeling-->
         <scene sceneID="u2x-qd-Asy">
             <objects>
-                <viewController id="c8X-a5-LaU" sceneMemberID="viewController">
+                <viewController title="SongsFeeling" id="c8X-a5-LaU" customClass="SongsFeelings" customModule="TidalWavesFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eyJ-pi-K3R">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -362,15 +381,16 @@
                         <viewLayoutGuide key="safeArea" id="ryi-O0-Jlm"/>
                         <color key="backgroundColor" red="0.88228955566138667" green="1" blue="0.93890752383537346" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="krs-Hl-vh0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="34x-DV-QHW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="811.59420289855075" y="1398.8839285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--SongAfter-->
         <scene sceneID="4Sz-DQ-2lu">
             <objects>
-                <viewController id="Dbb-To-yIu" sceneMemberID="viewController">
+                <viewController title="SongAfter" id="Dbb-To-yIu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OOc-j9-ITk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -433,10 +453,10 @@
             </objects>
             <point key="canvasLocation" x="812" y="2079"/>
         </scene>
-        <!--View Controller-->
+        <!--SongFinal-->
         <scene sceneID="Prb-AF-iZK">
             <objects>
-                <viewController id="OSc-Sr-eKj" sceneMemberID="viewController">
+                <viewController title="SongFinal" id="OSc-Sr-eKj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B2v-Hj-VAd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -680,7 +700,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uff-zF-sC0">
-                                <rect key="frame" x="157" y="477" width="116" height="43"/>
+                                <rect key="frame" x="152" y="477" width="116" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Japanese">
@@ -689,7 +709,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jts-za-SSm">
-                                <rect key="frame" x="172" y="563" width="87" height="43"/>
+                                <rect key="frame" x="167" y="559" width="87" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="French">
@@ -742,7 +762,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9s-7M-Ih5">
-                                <rect key="frame" x="176" y="632" width="79" height="43"/>
+                                <rect key="frame" x="175" y="632" width="79" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Other">
@@ -781,7 +801,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMt-ej-Q7O">
-                                <rect key="frame" x="160" y="383" width="83" height="43"/>
+                                <rect key="frame" x="157" y="383" width="83" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Angry">
@@ -793,7 +813,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfH-MG-VRk">
-                                <rect key="frame" x="160" y="301" width="65" height="43"/>
+                                <rect key="frame" x="161" y="301" width="65" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Fine">
@@ -805,7 +825,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsG-Dx-Cjc">
-                                <rect key="frame" x="164" y="460" width="74" height="43"/>
+                                <rect key="frame" x="163" y="460" width="74" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Tired">
@@ -837,7 +857,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunRays" translatesAutoresizingMaskIntoConstraints="NO" id="zjy-hd-mo4">
-                                <rect key="frame" x="-42" y="-41" width="393" height="334"/>
+                                <rect key="frame" x="-39" y="-41" width="393" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="project 13" translatesAutoresizingMaskIntoConstraints="NO" id="iFL-RE-epY">
@@ -1482,6 +1502,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="vC8-Wj-3bi"/>
         <segue reference="bfb-x3-WFN"/>
     </inferredMetricsTieBreakers>
     <resources>
