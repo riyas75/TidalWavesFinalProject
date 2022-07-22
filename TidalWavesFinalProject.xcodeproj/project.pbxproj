@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652152A2288AC1B900C9805E /* SelfCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652152A1288AC1B900C9805E /* SelfCareViewController.swift */; };
 		AD162A0128898B21006C965D /* Movies3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD162A0028898B21006C965D /* Movies3ViewController.swift */; };
 		AD162A0328898B30006C965D /* Movies4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD162A0228898B30006C965D /* Movies4ViewController.swift */; };
 		AD162A0528898B48006C965D /* MoviesAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD162A0428898B48006C965D /* MoviesAnswerViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652152A1288AC1B900C9805E /* SelfCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareViewController.swift; sourceTree = "<group>"; };
 		AD162A0028898B21006C965D /* Movies3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies3ViewController.swift; sourceTree = "<group>"; };
 		AD162A0228898B30006C965D /* Movies4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies4ViewController.swift; sourceTree = "<group>"; };
 		AD162A0428898B48006C965D /* MoviesAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAnswerViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				AD9AB52E2887965500CFB078 /* SongsViewController.swift */,
 				AD9AB5262887208400CFB078 /* ButtonPageViewController.swift */,
 				BDB67D8528870D8500C86534 /* Main.storyboard */,
+				652152A1288AC1B900C9805E /* SelfCareViewController.swift */,
 				BDB67D8B28870D8F00C86534 /* Assets.xcassets */,
 				BDB67D8D28870D8F00C86534 /* LaunchScreen.storyboard */,
 				BDB67D9028870D8F00C86534 /* Info.plist */,
@@ -305,6 +308,7 @@
 				BDB67D8028870D8500C86534 /* AppDelegate.swift in Sources */,
 				BDB67D8228870D8500C86534 /* SceneDelegate.swift in Sources */,
 				AD9AB5292887913B00CFB078 /* MoviesViewController.swift in Sources */,
+				652152A2288AC1B900C9805E /* SelfCareViewController.swift in Sources */,
 				AD9AB52D2887964600CFB078 /* FoodsViewController.swift in Sources */,
 				AD162A0528898B48006C965D /* MoviesAnswerViewController.swift in Sources */,
 				AD9AB52B2887963300CFB078 /* BooksViewController.swift in Sources */,

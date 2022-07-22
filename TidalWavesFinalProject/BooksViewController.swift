@@ -15,6 +15,22 @@ class BooksViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func genreButton(_ sender: Any) {
+    }
+        if sender.titleLabel!.text == "Fiction" {
+            bookType = "1"
+        }
+        else if sender.titleLabel!.text == "Nonfiction" {
+            bookType = "2"
+        }
+        else if sender.titleLabel!.text == "Horror" {
+            bookType = "3"
+        }
+        else if sender.titleLabel!.text == "Action" {
+            bookType = "4"
+        }
+        performSegue(withIdentifier: "goToRating", sender: self)
+    }
 
     /*
     // MARK: - Navigation
