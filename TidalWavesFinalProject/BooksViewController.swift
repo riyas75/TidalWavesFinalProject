@@ -8,7 +8,8 @@
 import UIKit
 
 class BooksViewController: UIViewController {
-
+    var bookType = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,21 +17,21 @@ class BooksViewController: UIViewController {
     }
     
     @IBAction func genreButton(_ sender: Any) {
-    }
-        if sender.titleLabel!.text == "Fiction" {
+        if (sender as AnyObject).titleLabel!.text == "Fiction" {
             bookType = "1"
         }
-        else if sender.titleLabel!.text == "Nonfiction" {
+        else if (sender as AnyObject).titleLabel!.text == "Nonfiction" {
             bookType = "2"
         }
-        else if sender.titleLabel!.text == "Horror" {
+        else if (sender as AnyObject).titleLabel!.text == "Horror" {
             bookType = "3"
         }
-        else if sender.titleLabel!.text == "Action" {
+        else if (sender as AnyObject).titleLabel!.text == "Action" {
             bookType = "4"
         }
         performSegue(withIdentifier: "goToRating", sender: self)
     }
+}
 
     /*
     // MARK: - Navigation
@@ -41,4 +42,3 @@ class BooksViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
